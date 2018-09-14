@@ -1,13 +1,9 @@
 # Target Excercises for 4 Month Program
 
 ## Chapter 4
-
-
-| Status  | Problem  | Solution  |
-|:-:|:-:|:-:|
-| <ul><li> [ ] </li></ul>  | 4.1  |   |
-| <ul><li> [ ] </li></ul>  | 4.7  |   |
-| <ul><li> [ ] </li></ul>  | 4.8  |   |
-| <ul><li> [ ] </li></ul>  | 4.3  |   |
-| <ul><li> [ ] </li></ul>  | 4.11  |   |
-| <ul><li> [ ] </li></ul>  | 4.9  |   |
+ - [] 4.1
+ - [] 4.7 
+ - [] 4.8 
+ - [] 4.3 
+ - [] 4.11
+ - [] 4.9 
