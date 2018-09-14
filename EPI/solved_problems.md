@@ -1,5 +1,7 @@
 # Target Excercises for 4 Month Program
 
+From table 1.2 on page 9
+
 ## Chapter 4
  - [ ] 4.1
  - [ ] 4.7 
