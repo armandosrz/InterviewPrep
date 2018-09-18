@@ -12,7 +12,7 @@ From table 1.2 on page 9
 
 
 ## Chapter 5
- - [ ] 5.1 [Ducth National Flag](../EPI/epi_judge_python/dutch_national_flag.py)
+ - [x] 5.1 [Ducth National Flag](../EPI/epi_judge_python/dutch_national_flag.py)
  - [ ] 5.6 
  - [ ] 5.12 
  - [ ] 5.18 
