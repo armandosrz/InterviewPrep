@@ -20,8 +20,40 @@ RED, WHITE, BLUE = range(3)
 '''
 
 def dutch_flag_partition(pivot_index, A):
-    # TODO - you fill in here.
-    return
+    pivot = A[pivot_index]
+    smaller, equal, larger = 0, 0, len(A)
+
+    while equal < larger:
+        # when smaller, swap element into smaller group
+        if A[equal] < pivot:
+            A[smaller], A[equal] = A[equal], A[smaller]
+            smaller +=1
+            equal +=1
+        # if equal, keep moving
+        elif A[equal] == pivot:
+            equal+=1
+        # when larger, move to end group.
+        # do not update equal since element is unknown
+        else:
+            larger -= 1
+            A[equal], A[larger] = A[larger], A[equal]
+    return A
+            
+    # Brute Force, solution has O(n) of extra space.
+    '''
+    target = A[pivot_index]
+    left = []
+    center = []
+    rigth = []
+    for a in A:
+        if a < target:
+            left.append(a)
+        elif a == target:
+            center.append(a)
+        else:
+            rigth.append(a)
+    return left + center + rigth
+    '''
 
 
 @enable_executor_hook
@@ -31,8 +63,7 @@ def dutch_flag_partition_wrapper(executor, A, pivot_idx):
         count[x] += 1
     pivot = A[pivot_idx]
 
-    executor.run(functools.partial(dutch_flag_partition, pivot_idx, A))
-
+    A = executor.run(functools.partial(dutch_flag_partition, pivot_idx, A))
     i = 0
     while i < len(A) and A[i] < pivot:
         count[A[i]] -= 1
@@ -48,6 +79,7 @@ def dutch_flag_partition_wrapper(executor, A, pivot_idx):
         raise TestFailure('Not partitioned after {}th element'.format(i))
     elif any(count):
         raise TestFailure("Some elements are missing from original array")
+
 
 
 if __name__ == '__main__':
