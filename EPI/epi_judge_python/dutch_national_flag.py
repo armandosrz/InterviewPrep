@@ -6,6 +6,18 @@ from test_framework.test_utils import enable_executor_hook
 
 RED, WHITE, BLUE = range(3)
 
+'''
+    Problem:
+
+    Write a program that takes an array A and index i (pivot) and those the following:
+    - All elements smaller than pivot should go first
+    - follow by elements equal to pivot
+    - and ending by elements bigger than pivot
+
+    Notes: elements in subpartition do not need to be sorted as long as the 
+           ordering is correct. This is a modification of a quick sort algorithm. 
+
+'''
 
 def dutch_flag_partition(pivot_index, A):
     # TODO - you fill in here.
