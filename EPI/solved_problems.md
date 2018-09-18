@@ -3,7 +3,7 @@
 From table 1.2 on page 9
 
 ## Chapter 4
- - [ ] 4.1
+ - [x] 4.1 [Parity](./epi_judge_python/parity.py)
  - [ ] 4.7 
  - [ ] 4.8 
  - [ ] 4.3 
