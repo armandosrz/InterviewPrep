@@ -12,11 +12,11 @@ From table 1.2 on page 9
 
 
 ## Chapter 5 - Arrays
- - [x] 5.1 [Ducth National Flag](../EPI/epi_judge_python/dutch_national_flag.py), __Partitions__ _O(n)
+ - [x] 5.1 [Ducth National Flag](../EPI/epi_judge_python/dutch_national_flag.py), __Partitions__ _O(n)_
  - [x] 5.6 [Buy and Sell stocks once](../EPI/epi_judge_python/buy_and_sell_stock.py), __Greedy__ _O(n)_
  - [x] 5.12 [Random Online Sampling](../EPI/epi_judge_python/offline_sampling.py), __Random__ _O(k)_ and _O(1)_ space.  
  - [ ] 5.18 
- - [ ] 5.2
+ - [x] 5.2 [Int as array Increment](../EPI/epi_judge_python/int_as_array_increment.py), __Iterations__ _O(n)_ and _O(1)_ space.
  - [ ] 5.17
  - [ ] 5.5
  - [ ] 5.9 
