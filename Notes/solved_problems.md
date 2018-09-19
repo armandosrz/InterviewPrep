@@ -13,7 +13,7 @@ From table 1.2 on page 9
 
 ## Chapter 5
  - [x] 5.1 [Ducth National Flag](../EPI/epi_judge_python/dutch_national_flag.py)
- - [ ] 5.6 
+ - [ ] 5.6 [Buy and Sell stocks once](../EPI/epi_judge_python/buy_and_sell_stock.py)
  - [ ] 5.12 
  - [ ] 5.18 
  - [ ] 5.2
