@@ -6,10 +6,27 @@ from test_framework.random_sequence_checker import (
     compute_combination_idx, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
 
+import random
 
+
+
+'''
+    Problem:
+    Given an array and a size k, return a random subset.
+    All subsets should be equally likely.
+
+    Followed steps from 5.12 to complete this problem
+
+    Performance: O(n)
+    Time: O(n)
+'''
 def random_subset(n, k):
-    # TODO - you fill in here.
-    return []
+    A = list(range(n))
+    for i in range(k):
+        r = random.randint(i, n-1)
+        A[i], A[r] = A[r], A[i]
+    
+    return A[:k]
 
 
 @enable_executor_hook
@@ -17,7 +34,6 @@ def random_subset_wrapper(executor, n, k):
     def random_subset_runner(executor, n, k):
         results = executor.run(
             lambda: [random_subset(n, k) for _ in range(100000)])
-
         total_possible_outcomes = binomial_coefficient(n, k)
         comb_to_idx = {
             tuple(compute_combination_idx(list(range(n)), n, k, i)): i

@@ -22,7 +22,7 @@ From table 1.2 on page 9
  - [x] 5.9 [Generate Primes](../EPI/epi_judge_python/prime_sieve.py), __Dynamic programing__ _O(nloglogn)_ and _O(n)_ space.
  - [x] 5.3 [Int as array Multiply](../EPI/epi_judge_python/int_as_array_multiply.py), __Iterations__ _O(n)_ 
  - [x] 5.10 [Apply permutation](../EPI/epi_judge_python/apply_permutation.py), __Permutations__ _O(n)_ and __O(1)__ space.
- - [ ] 5.15
+ - [x] 5.15 [Random Subset](../EPI/epi_judge_python/int_as_array_increment.py), __Random Perm__ _O(n)_ and _O(n)_ space.
 
 ## Chapter 6
  - [ ] 6.1
