@@ -10,7 +10,10 @@
 - _Strings_ are inmutable, try avoiding adding single chars if possible
 - Checking for an element in the array is simple as `a in A`: _O(n)_.
 
-## Palindorme 
+
+## Common problems
+
+### Palindorme 
 
 ```python3
 
