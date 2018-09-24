@@ -25,7 +25,7 @@ From table 1.2 on page 9
  - [x] 5.15 [Random Subset](../EPI/epi_judge_python/int_as_array_increment.py), __Random Perm__ _O(n)_ and _O(n)_ space.
 
 ## Chapter 6
- - [ ] 6.1
+ - [x] 6.1 [String to Int (no standad library)](../EPI/epi_judge_python_solutions/string_integer_interconversion.py), __Math + Interesting implementations__ _O(n)_
  - [ ] 6.2 
  - [ ] 6.4 
  - [ ] 6.5 
