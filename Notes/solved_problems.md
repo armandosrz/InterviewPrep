@@ -27,9 +27,9 @@ From table 1.2 on page 9
 ## Chapter 6
  - [x] 6.1 [String to Int (no standad library)](../EPI/epi_judge_python_solutions/string_integer_interconversion.py), __Math + Interesting implementations__ _O(n)_
  - [ ] 6.2 
- - [ ] 6.4 
- - [ ] 6.5 
- - [ ] 6.6
+ - [x] 6.4 [Replace and Remove](../EPI/epi_judge_python/replace_and_remove.py), __String__ _O(n)_ and _O(n)_ space.
+ - [x] 6.5 [Is Palindrome](../EPI/epi_judge_python/is_string_palindromic_punctuation.py), __String Iteration__ _O(n)_ and _O(1)_ space.
+ - [x] 6.6 [Reverse Words](../EPI/epi_judge_python/is_string_palindromic_punctuation.py), __String reversal__ _O(n)_ and _O(n)_ space.
  - [ ] 6.7
  - [ ] 6.8
  - [ ] 6.9 

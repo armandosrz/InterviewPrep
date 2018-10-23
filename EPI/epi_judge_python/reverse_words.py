@@ -6,18 +6,14 @@ from test_framework.test_utils import enable_executor_hook
 
 # Assume s is a string encoded as bytearray.
 def reverse_words(s):
-    # TODO - you fill in here.
-    return
+    return ' '.join(reversed(s.split(' ')))
 
 
 @enable_executor_hook
 def reverse_words_wrapper(executor, s):
-    s_copy = bytearray()
-    s_copy.extend(map(ord, s))
+    s = executor.run(functools.partial(reverse_words, s))
 
-    executor.run(functools.partial(reverse_words, s_copy))
-
-    return s_copy.decode("utf-8")
+    return s
 
 
 if __name__ == '__main__':
