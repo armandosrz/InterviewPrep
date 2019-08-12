@@ -30,13 +30,13 @@ From table 1.2 on page 9
  - [x] 6.4 [Replace and Remove](../EPI/epi_judge_python/replace_and_remove.py), __String__ _O(n)_ and _O(n)_ space.
  - [x] 6.5 [Is Palindrome](../EPI/epi_judge_python/is_string_palindromic_punctuation.py), __String Iteration__ _O(n)_ and _O(1)_ space.
  - [x] 6.6 [Reverse Words](../EPI/epi_judge_python/is_string_palindromic_punctuation.py), __String reversal__ _O(n)_ and _O(n)_ space.
- - [ ] 6.7
- - [ ] 6.8
+ - [x] 6.7 [Phone mnemonic](../EPI/epi_judge_python/phone_number_mnemonic.py), __Recursion__ _O(n)_ and _O(4^n * n)_ space. 
+ - [x] 6.8 [Look and Say](../EPI/epi_judge_python/look_and_say.py), __Straigh forward__ _O(n)_
  - [ ] 6.9 
  - [ ] 6.11 
 
 ## Chapter 7
- - [ ] 7.1
+ - [x] 7.1 [Merge two sorted LL](../EPI/epi_judge_python/sorted_lists_merge.py), __merge ll__ _O(n)_  
  - [ ] 7.2 
  - [ ] 7.3 
  - [ ] 7.4 
