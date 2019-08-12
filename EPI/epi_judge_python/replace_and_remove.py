@@ -5,14 +5,22 @@ from test_framework.test_utils import enable_executor_hook
 
 
 def replace_and_remove(size, s):
-    # TODO - you fill in here.
-    return 0
+    result = []
+    for i in range(size):
+        if s[i] == 'b':
+            continue
+        if s[i] == 'a':
+            result.extend(['d', 'd'])
+        else:
+            result.append(s[i])
+   
+    return result
 
 
 @enable_executor_hook
 def replace_and_remove_wrapper(executor, size, s):
     res_size = executor.run(functools.partial(replace_and_remove, size, s))
-    return s[:res_size]
+    return res_size
 
 
 if __name__ == '__main__':

@@ -15,7 +15,7 @@ From table 1.2 on page 9
  - [x] 5.1 [Ducth National Flag](../EPI/epi_judge_python/dutch_national_flag.py), __Partitions__ _O(n)_
  - [x] 5.6 [Buy and Sell stocks once](../EPI/epi_judge_python/buy_and_sell_stock.py), __Greedy__ _O(n)_
  - [x] 5.12 [Random Online Sampling](../EPI/epi_judge_python/offline_sampling.py), __Random__ _O(k)_ and _O(1)_ space.  
- - [ ] 5.18 
+ - [x] 5.18 [Matrix in Spiral Ordering](../EPI/epi_judge_python/int_as_array_increment.py), __2d Array__ _O(n^2)_ and _O(n)_ space.
  - [x] 5.2 [Int as array Increment](../EPI/epi_judge_python/int_as_array_increment.py), __Iterations__ _O(n)_ and _O(1)_ space.
  - [x] 5.17 [Valid Sudoku](../EPI/epi_judge_python/is_valid_sudoku.py), __Clean Implementation__ _O(n^2)_ and _O(n)_ space.
  - [x] 5.5 [Sorted - remove duplicates](../EPI/epi_judge_python/int_as_array_increment.py), __hashmap__ _O(n)_ and _O(n)_ space. _O(1)_ is also posible.
@@ -25,11 +25,11 @@ From table 1.2 on page 9
  - [x] 5.15 [Random Subset](../EPI/epi_judge_python/int_as_array_increment.py), __Random Perm__ _O(n)_ and _O(n)_ space.
 
 ## Chapter 6
- - [ ] 6.1
+ - [x] 6.1 [String to Int (no standad library)](../EPI/epi_judge_python_solutions/string_integer_interconversion.py), __Math + Interesting implementations__ _O(n)_
  - [ ] 6.2 
- - [ ] 6.4 
- - [ ] 6.5 
- - [ ] 6.6
+ - [x] 6.4 [Replace and Remove](../EPI/epi_judge_python/replace_and_remove.py), __String__ _O(n)_ and _O(n)_ space.
+ - [x] 6.5 [Is Palindrome](../EPI/epi_judge_python/is_string_palindromic_punctuation.py), __String Iteration__ _O(n)_ and _O(1)_ space.
+ - [x] 6.6 [Reverse Words](../EPI/epi_judge_python/is_string_palindromic_punctuation.py), __String reversal__ _O(n)_ and _O(n)_ space.
  - [ ] 6.7
  - [ ] 6.8
  - [ ] 6.9 
