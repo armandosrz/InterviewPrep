@@ -1,24 +1,21 @@
 from test_framework import generic_test
-
+from list_node import ListNode
 
 def reverse_sublist(L, start, finish):
-    stack, count = [], 1
-    head = iterator = L
-    while L:
-        if count >= start and count <= finish:
-            stack.append(L.data)
-        
-        count +=1
-        L = L.next
-    
-    count = 1
-    while iterator:
-        if count >= start and count <= finish:
-            iterator.data = stack.pop()
-        count +=1
-        iterator = iterator.next
+    head = sublist_head = ListNode(0, L)
 
-    return head
+    for i in range(1, start):
+        print (i, start)
+        sublist_head = sublist_head.next
+
+    curr = sublist_head.next
+    for _ in range(finish - start):
+        temp = curr.next
+        curr.next = temp.next
+        temp.next = sublist_head.next
+        sublist_head.next = temp
+    
+    return head.next
 
 
 if __name__ == '__main__':
