@@ -1,12 +1,6 @@
 from test_framework import generic_test
 from list_node import ListNode
 
-
-class ListNode:
-    def __init__(self, data=0, next=None):
-        self.data = data
-        self.next = next
-
 '''
 Remember to create iterators that will help
 you go and modify lists. 

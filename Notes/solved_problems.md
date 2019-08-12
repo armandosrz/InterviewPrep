@@ -45,13 +45,13 @@ From table 1.2 on page 9
  - [ ] 7.11(optional)
 
 ## Chapter 8
- - [ ] 8.1
- - [ ] 8.6 
+ - [x] 8.1 [Stack with Max](../EPI/epi_judge_python/stack_with_max.py), __Implemented with list__ _O(n)_
+ - [x] 8.6 [BST BFS with queue](../EPI/epi_judge_python/tree_level_order.py), __BFS IN A BT__ _O(n)_
  - [ ] 8.2 
  - [ ] 8.7 
- - [ ] 8.3
- - [ ] 8.8
- - [ ] 8.4
+ - [ ] 8.3(O)
+ - [ ] 8.8(O)
+ - [ ] 8.4(O)
 
 ## Chapter 9
  - [ ] 9.1
