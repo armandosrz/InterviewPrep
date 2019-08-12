@@ -40,7 +40,7 @@ From table 1.2 on page 9
  - [x] 7.2 [Reverse sublist](../EPI/epi_judge_python/sorted_lists_merge.py), __check notes for technique__ _O(n)_
  - [x] 7.3 [Is there a cycle](../EPI/epi_judge_python/is_list_cyclic.py), __slow and fast iters__ _O(n)_
  - [x] 7.4 [Overlap linlked list](../EPI/epi_judge_python/do_terminated_lists_overlap.py) __List traversal__  _O(n)_
- - [ ] 7.7
+ - [x] 7.7 [Delete kth from end](../EPI/epi_judge_python/delete_kth_last_from_list.py) __smart use of iter speed__ _O(n)_
  - [ ] 7.10(optional)
  - [ ] 7.11(optional)
 
