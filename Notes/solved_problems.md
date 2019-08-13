@@ -54,7 +54,7 @@ From table 1.2 on page 9
  - [ ] 8.4(O)
 
 ## Chapter 9
- - [ ] 9.1
+ - [x] 9.1 [Balanced tree](../EPI/epi_judge_python/is_tree_balanced.py), __Tree recursion__ _O(n)_
  - [ ] 9.4 
  - [ ] 9.2 
  - [ ] 9.12 
