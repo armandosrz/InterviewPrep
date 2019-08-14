@@ -24,7 +24,7 @@ From table 1.2 on page 9
  - [x] 5.10 [Apply permutation](../EPI/epi_judge_python/apply_permutation.py), __Permutations__ _O(n)_ and __O(1)__ space.
  - [x] 5.15 [Random Subset](../EPI/epi_judge_python/int_as_array_increment.py), __Random Perm__ _O(n)_ and _O(n)_ space.
 
-## Chapter 6
+## Chapter 6 - String
  - [x] 6.1 [String to Int (no standad library)](../EPI/epi_judge_python_solutions/string_integer_interconversion.py), __Math + Interesting implementations__ _O(n)_
  - [ ] 6.2 
  - [x] 6.4 [Replace and Remove](../EPI/epi_judge_python/replace_and_remove.py), __String__ _O(n)_ and _O(n)_ space.
@@ -35,7 +35,7 @@ From table 1.2 on page 9
  - [ ] 6.9 
  - [ ] 6.11 
 
-## Chapter 7
+## Chapter 7 - Linked List
  - [x] 7.1 [Merge two sorted linked list](../EPI/epi_judge_python/sorted_lists_merge.py), __Linked list traversal__ _O(n)_
  - [x] 7.2 [Reverse sublist](../EPI/epi_judge_python/sorted_lists_merge.py), __check notes for technique__ _O(n)_
  - [x] 7.3 [Is there a cycle](../EPI/epi_judge_python/is_list_cyclic.py), __slow and fast iters__ _O(n)_
@@ -44,11 +44,11 @@ From table 1.2 on page 9
  - [ ] 7.10(optional)
  - [ ] 7.11(optional)
 
-## Chapter 8
+## Chapter 8 - Stack and Queue
  - [x] 8.1 [Stack with Max](../EPI/epi_judge_python/stack_with_max.py), __Implemented with list__ _O(n)_
  - [x] 8.6 [BST BFS with queue](../EPI/epi_judge_python/tree_level_order.py), __BFS IN A BT__ _O(n)_
  - [x] 8.2 [rpn notation](../EPI/epi_judge_python/evaluate_rpn.py), __Stack in LIFO notation__ _O(n)_
- - [ ] 8.7 
+ - [ ] 8.7 [Implement circular queue]
  - [ ] 8.3(O)
  - [ ] 8.8(O)
  - [ ] 8.4(O)
