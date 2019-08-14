@@ -55,12 +55,12 @@ From table 1.2 on page 9
 
 ## Chapter 9
  - [x] 9.1 [Balanced tree](../EPI/epi_judge_python/is_tree_balanced.py), __Tree recursion__ _O(n)_
- - [ ] 9.4 
- - [ ] 9.2 
- - [ ] 9.12 
- - [ ] 9.11
- - [ ] 9.13
- - [ ] 9.16
+ - [x] 9.4 [LCA with parent nodes](../EPI/epi_judge_python/lowest_common_ancestor_close_ancestor.py), __Interesting approach__ _O(n)_
+ - [x] 9.2 [Is tree symmetric](../EPI/epi_judge_python/is_tree_symmetric.py), __Parrallel recursion__ _O(n)_
+ - [x] 9.12 [Preorder -inorder create](../EPI/epi_judge_python/tree_from_preorder_inorder.py), __Rebuild tree using inorder and preorder__ _O(n)_
+ - [ ] 9.11(O)
+ - [ ] 9.13(O)
+ - [ ] 9.16(O)
 
 ## Chapter 10
  - [ ] 10.1

@@ -7,8 +7,25 @@ from test_framework.test_utils import enable_executor_hook
 
 
 def lca(node0, node1):
-    # TODO - you fill in here.
-    return None
+    def distance(node):
+        distance = 0
+        while node.parent:
+            distance += 1
+            node = node.parent
+        return distance
+    
+    d0, d1 = map(distance, (node0, node1))
+
+    if d0 > d1:
+        node0, node1 = node1, node0
+    
+    for _ in range(abs(d0-d1)):
+        node1 = node1.parent
+
+    while node0 is not node1:
+        node0, node1 = node0.parent, node1.parent
+        
+    return node0
 
 
 @enable_executor_hook
