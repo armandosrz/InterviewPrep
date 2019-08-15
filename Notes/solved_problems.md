@@ -63,11 +63,11 @@ From table 1.2 on page 9
  - [ ] 9.16(O)
 
 ## Chapter 10
- - [ ] 10.1
- - [ ] 10.4
- - [ ] 10.3 
- - [ ] 10.5 
- - [ ] 10.6
+ - [x] 10.1 [sorted_merge_arrays](../EPI/epi_judge_python/sorted_arrays_merge.py), __mere sorted lists__ _O(nlogk) where k is num of instances_
+ - [x] 10.4 [k closest start](../EPI/epi_judge_python/k_closest_starts.py), __get k smallest__ _O(nlogk)_
+ - [x] 10.3 [k-sorted array](../EPI/epi_judge_python/sort_almost_sorted_array.py), __k-sort__ _O(nlogk)_
+ - [x] 10.5 [keeping running median](../EPI/epi_judge_python/online_median.py), __2 heaps__ _O(nlogk)_
+ - [ ] 10.6 (O)
 
 ## Chapter 11
  - [ ] 11.1
