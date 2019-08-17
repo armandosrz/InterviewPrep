@@ -63,40 +63,39 @@ From table 1.2 on page 9
  - [ ] 9.16(O)
 
 ## Chapter 10
- - [x] 10.1 [sorted_merge_arrays](../EPI/epi_judge_python/sorted_arrays_merge.py), __mere sorted lists__ _O(nlogk) where k is num of instances_
+ - [x] 10.1 [sorted_merge_arrays](../EPI/epi_judge_python/sorted_arrays_merge.py), __merge sorted lists__ _O(nlogk) where k is num of instances_
  - [x] 10.4 [k closest start](../EPI/epi_judge_python/k_closest_starts.py), __get k smallest__ _O(nlogk)_
  - [x] 10.3 [k-sorted array](../EPI/epi_judge_python/sort_almost_sorted_array.py), __k-sort__ _O(nlogk)_
  - [x] 10.5 [keeping running median](../EPI/epi_judge_python/online_median.py), __2 heaps__ _O(nlogk)_
  - [ ] 10.6 (O)
 
 ## Chapter 11
- - [ ] 11.1
- - [ ] 11.4
- - [ ] 11.8 
- - [ ] 11.3 
- - [ ] 11.9
- - [ ] 11.5
- - [ ] 11.10
- - [ ] 11.6
- - [ ] 11.7
+ - [x] 11.1 [binary search first occurance](../EPI/epi_judge_python/search_first_key.py), __binary search__ _O(logn)_
+ - [x] 11.4 [int square root](../EPI/epi_judge_python/int_square_root.py)__binary search with no exact find__
+ - [x] 11.8 [find k_largest](../EPI/epi_judge_python/kth_largest_in_array.py)__used a min heap of size k__ _O(n)_
+ - [x] 11.3 [search shifted array](../EPI/epi_judge_python/search_shifted_sorted_array.py)__smart application of binary search__ 
+ - [] 11.9
+ - [ ] 11.5(O)
+ - [ ] 11.10(O)
+ - [ ] 11.6(O)
+ - [ ] 11.7(O)
 
 ## Chapter 12
  - [ ] 12.2
  - [ ] 12.3
  - [ ] 12.5 
  - [ ] 12.1 
- - [ ] 12.4
- - [ ] 12.6
- - [ ] 12.9
+ - [ ] 12.4(O)
+ - [ ] 12.6(O)
+ - [ ] 12.9(O)
 
 ## Chapter 13
  - [ ] 13.1
  - [ ] 13.2
  - [ ] 13.6 
- - [ ] 13.8 
- - [ ] 13.8
- - [ ] 13.11
- - [ ] 13.9
+ - [ ] 13.8(O)
+ - [ ] 13.11(O)
+ - [ ] 13.9(O)
 
 ## Chapter 14
  - [ ] 14.1
