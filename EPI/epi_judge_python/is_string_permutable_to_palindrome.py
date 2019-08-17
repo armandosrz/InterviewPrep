@@ -1,9 +1,12 @@
 from test_framework import generic_test
 
+import collections
 
 def can_form_palindrome(s):
-    # TODO - you fill in here.
-    return True
+    # a string can be permutated to a palindrome if and only if
+    # the number of odd occurances is at most one
+    counts = collections.Counter(s)
+    return sum( c % 2 for c in counts.values()) <= 1
 
 
 if __name__ == '__main__':
