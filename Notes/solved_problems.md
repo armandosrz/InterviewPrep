@@ -92,28 +92,28 @@ From table 1.2 on page 9
 ## Chapter 13
  - [x] 13.1 [Intersection of sorted array](../EPI/epi_judge_python/intersect_sorted_arrays.py)
  - [x] 13.2 [Two sorted merged arrays](../EPI/epi_judge_python/two_sorted_arrays_merge.py)
- - [ ] 13.6 
+ - [x] 13.6 [Calendar Rendering](../EPI/epi_judge_python/calendar_rendering.py)
  - [ ] 13.8(O)
  - [ ] 13.11(O)
  - [ ] 13.9(O)
 
 ## Chapter 14
- - [ ] 14.1
- - [ ] 14.2
- - [ ] 14.3 
- - [ ] 14.4 
- - [ ] 14.5
- - [ ] 14.8
- - [ ] 14.7
+ - [x] 14.1 [Does tree has the BST property](../EPI/epi_judge_python/is_tree_a_bst.py)
+ - [x] 14.2 [Inorder first bigger than k](../EPI/epi_judge_python/search_first_greater_value_in_bst.py)
+ - [x] 14.3 [Find K-largest](../EPI/epi_judge_python/k_largest_values_in_bst.py)
+ - [x] 14.4 [Find LCA](../EPI/epi_judge_python/lowest_common_ancestor_in_bst.py)
+ - [ ] 14.5(O)
+ - [ ] 14.8(O)
+ - [ ] 14.7(O)
 
 ## Chapter 15
  - [ ] 15.1
  - [ ] 15.2
  - [ ] 15.3 
- - [ ] 15.4 
- - [ ] 15.9
- - [ ] 15.6
- - [ ] 15.10
+ - [ ] 15.4(O) 
+ - [ ] 15.9(O)
+ - [ ] 15.6(O)
+ - [ ] 15.10(O)
 
 ## Chapter 16
  - [ ] 16.1
