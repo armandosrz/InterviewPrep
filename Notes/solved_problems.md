@@ -81,17 +81,17 @@ From table 1.2 on page 9
  - [ ] 11.7(O)
 
 ## Chapter 12
- - [ ] 12.2
- - [ ] 12.3
- - [ ] 12.5 
- - [ ] 12.1 
+ - [x] 12.2
+ - [x] 12.3 [LRU Cache](../EPI/epi_judge_python/lru_cache.py)__hashmap + queue implementation__
+ - [x] 12.5 [nearest distance](../EPI/epi_judge_python/nearest_repeated_entries.py)__hashmap__
+ - [x] 12.1 [plaindrome permutation](../EPI/epi_judge_python/is_string_permutable_to_palindrome.py)__hashmap + queue implementation__
  - [ ] 12.4(O)
  - [ ] 12.6(O)
  - [ ] 12.9(O)
 
 ## Chapter 13
- - [ ] 13.1
- - [ ] 13.2
+ - [x] 13.1 [Intersection of sorted array](../EPI/epi_judge_python/intersect_sorted_arrays.py)
+ - [x] 13.2 [Two sorted merged arrays](../EPI/epi_judge_python/two_sorted_arrays_merge.py)
  - [ ] 13.6 
  - [ ] 13.8(O)
  - [ ] 13.11(O)
