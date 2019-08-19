@@ -8,8 +8,20 @@ Item = collections.namedtuple('Item', ('weight', 'value'))
 
 
 def optimum_subject_to_capacity(items, capacity):
-    # TODO - you fill in here.
-    return 0
+    def get_optimun(k, available):
+        if k < 0:
+            return 0
+        
+        if V[k][available] == -1:
+            without = get_optimun(k-1, available)
+            with_current = (0 if available < items[k].weight else (
+                items[k].value + get_optimun(k-1, available - items[k].weight)
+            ))
+            V[k][available] = max(without, with_current)
+        return V[k][available]
+
+    V = [[-1] * (capacity + 1) for _ in items]
+    return get_optimun(len(items)-1, capacity)
 
 
 @enable_executor_hook
