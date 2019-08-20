@@ -117,26 +117,26 @@ From table 1.2 on page 9
 
 ## Chapter 16
  - [ ] 16.1
- - [ ] 16.2 
- - [ ] 16.3 
- - [ ] 16.6 
- - [ ] 16.5(O)
- - [ ] 16.7(O)
- - [ ] 16.12(O)
+ - [x] 16.2 [Levenshtein distance](../EPI/epi_judge_python/levenshtein_distance.py)
+ - [x] 16.3 [number of traversals](../EPI/epi_judge_python/number_of_traversals.py)
+ - [x] 16.6 [Knapsack problem](../EPI/epi_judge_python/knapsack.py)
+ - [ ] 16.5
+ - [ ] 16.7
+ - [ ] 16.12
 
 ## Chapter 17
- - [ ] 17.4
- - [ ] 17.6
- - [ ] 17.5 
- - [ ] 17.7 
- - [ ] 17.8
+ - [x] 17.4 [Has three sum](../EPI/epi_judge_python/three_sum.py)
+ - [x] 17.6 [Find ample](../EPI/epi_judge_python/refueling_schedule.py)
+ - [x] 17.5 [Majority element](../EPI/epi_judge_python/refueling_schedule.py)
+ - [ ] 17.7 (O)
+ - [ ] 17.8 (O)
 
 ## Chapter 18
- - [ ] 18.1
- - [ ] 18.7 
+ - [x] 18.1 [Search Maze](../EPI/epi_judge_python/search_maze.py) __DFS implementation__
+ - [x] 18.7 [shortest path](../EPI/epi_judge_python/string_transformability.py) __BFS implementation__
  - [ ] 18.2 
- - [ ] 18.3 
- - [ ] 18.5
+ - [ ] 18.3 (O)
+ - [ ] 18.5 (O)
 
 ## Chapter 19
  - [ ] 19.3
