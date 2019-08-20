@@ -107,9 +107,9 @@ From table 1.2 on page 9
  - [ ] 14.7(O)
 
 ## Chapter 15
- - [ ] 15.1
- - [ ] 15.2
- - [ ] 15.3 
+ - [x] 15.1 [Towers of Hanoi](../EPI/epi_judge_python/hanoi.py)
+ - [x] 15.2 [N Queens](../EPI/epi_judge_python/n_queens.py)
+ - [x] 15.3 [All permutations](../EPI/epi_judge_python/permutations.py)
  - [ ] 15.4(O) 
  - [ ] 15.9(O)
  - [ ] 15.6(O)
@@ -120,9 +120,9 @@ From table 1.2 on page 9
  - [ ] 16.2 
  - [ ] 16.3 
  - [ ] 16.6 
- - [ ] 16.5
- - [ ] 16.7
- - [ ] 16.12
+ - [ ] 16.5(O)
+ - [ ] 16.7(O)
+ - [ ] 16.12(O)
 
 ## Chapter 17
  - [ ] 17.4
